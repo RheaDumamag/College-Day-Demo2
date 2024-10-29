@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(135deg, #e0c3fc, #8ec5fc, #a3d8f4); 
+    height: 100vh;
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+
+  }
+
+  h1{ 
+    text-align: center; 
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    
+  }
+p{
+    text-align: center;
+    font-family: cursive;
+}
+
+
+.flex-container {
+    display: flex;                     
+    justify-content: space-around;     
+    align-items: flex-start;           
+    padding: 20px;                    
+}       
+
+.card {
+ 
+    border: 1px solid #ccc;            
+    border-radius: 8px;                
+    width: 300px;                      
+    margin: 10px;                     
+    box-shadow: 0 6px 16px gray  
+}
+
+.card img {
+    max-width: 100%;                   
+    height: auto;                     
+}
+
+.title {
+    text-align: center; 
+                       
+}
+
+.video-container {
+    width: 50%;               
+    border-radius: 10px;     
+    overflow: hidden;        
+    margin: 20px auto;       
+    text-align: center; 
+    box-shadow: 0 6px 16px gray       
+}
+
+video {
+    width: 100%;              
+    height: auto;  }   
+    
+    .gif-container {
+        position: relative;
+        height: 300px; 
+    }
+    
+    .side-gif {
+        position: absolute;
+        top: 0;
+        width: 200px; 
+        height: auto; 
+    }
+    
+    .left {
+        left: 0;
+    }
+    
+    .right {
+        right: 0;
+    }
+    
+    .content {
+        padding: 20px;
+        margin-top: 220px; 
+    }
+    
+
+
+
+    
+   
+ 
